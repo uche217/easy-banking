@@ -81,3 +81,91 @@ main p{
 .about-header{
     width: 50%;
 }
+
+.country {
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    
+}
+.single-blog{
+    width: 90%;
+    box-shadow: 9px 9px 10px #c0c0c0;
+
+}
+.single-blog img{
+    width: 100%;
+}
+.para-1{
+    font-size: 12px;
+}
+#article-section{
+    padding: 100px 50px;
+}
+.single-blog a{
+    font-size: 15px;
+    margin: 14px 0;
+    display: block;
+    color: #313131;
+}
+
+.para-2{
+    font-size: 14px;
+}
+
+.single-blog div{
+    padding: 10px;
+}
+
+.single-blog a:hover{
+    color: #28C79A;
+}
+#article-section h1{
+    margin-bottom: 30px;
+    color: #9698A6;
+    font-weight: 400;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+
+.footer-2div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+
+}
+.footer-about a{
+    display: block;
+    margin: 10px 0;
+    color: white;
+}
+.footer-careers a{
+    display: block;
+    margin: 10px 0;
+    color: white;
+}
+footer button{
+    margin: 20px;
+}
+footer{
+    background-color: #2D314D;
+}
+
+.medias{
+    display: flex;
+    gap: 15px;
+}
+
+footer i{
+    color: white;
+    font-size: 20px;
+    margin: 20px 0;
+}
+footer p{
+    color: white;
+}
